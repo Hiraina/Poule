@@ -1,0 +1,9 @@
+docker start oracle
+docker start arbiochem-build
+docker start arbiochem-wildfly
+
+docker exec -it arbiochem-build bash
+
+ant -f build.xml
+
+http://localhost:8088/arbiochem/

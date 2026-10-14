@@ -1,0 +1,18 @@
+
+services:
+  arbiochem-build:
+    image: eclipse-temurin:8-jdk
+    container_name: arbiochem-build
+    working_dir: /project
+    volumes:
+      - .:/project
+    command: sleep infinity
+
+  arbiochem-wildfly:
+    image: arbiochem-wildfly:latest
+    container_name: arbiochem-wildfly
+    ports:
+      - "8088:8080"
+      - "9999:9990"
+    volumes:
+      - ./deployments:/opt/wildfly/standalone/deployments

@@ -1,0 +1,6 @@
+Une poule peut pondre/enceinte d'oeufs tous les jours dépendant de sa race.
+Dans ZooTechnique (d'après le prof et ce que j'ai compris), on peut connaître la race d'une poule et c'est à partir de sa race qu'on connaît le nombre de jour pour qu'un oeuf éclot.
+Si on a alors le nombre de poules qui pondent, on peut connaître le nombre de poussins qui naîtront.
+Si un poule meurt, donc ça affecte évidemment le nombre de poussins qui naîtront.
+Mais avant, il y a d'abord ceci:
+Formulaire journalier d'ajout de morts et de perdus. Morts n'affectant pas l'effectif, mais seulement de statut mort, mais perdus affectent l'effectif. Donc il faut également un champ de date.

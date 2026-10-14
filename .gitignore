@@ -1,0 +1,104 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Dependency directories
+# uncomment if using maven
+# /dependency/
+# /target/
+
+# Eclipse
+.project
+.classpath
+.settings/
+/bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# OS-generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build outputs (Ant)
+build/
+dist/
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Specific to this project (Ant build outputs)
+projet-standard - Copie/build/
+projet-standard - Copie/dist/
+projet-standard - Copie/nbproject/private/
+projet-standard - Copie/nbbuild/
+projet-standard - Copie/nbdist/
+projet-standard - Copie/.nb-gradle/
+projet-standard - Copie/build-file/
+projet-standard - Copie/build-file/**/
+
+# IDE specific folders
+projet-standard - Copie/.idea/
+projet-standard - Copie/.project
+projet-standard - Copie/.classpath
+projet-standard - Copie/.settings/
+
+# Generated JSP compiled files (if any)
+projet-standard - Copie/**/*.class
+projet-standard - Copie/**/*.jar
+
+# Temporary files
+*~
+#*#
+.#*
+
+# Logs and reports
+*.log
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Documentation generated
+javadoc/
+doc/
