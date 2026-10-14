@@ -1,6 +1,7 @@
 package ferme.volaille;
 
 import bean.ClassMAPTable;
+import bean.ClassFille;
 import bean.ClassMere;
 import bean.CGenUtil;
 import java.sql.Connection;

@@ -8,6 +8,7 @@ import ferme.programme.ProgrammeZootechnique;
 import ferme.programme.ProgrammeZootechniqueDetails;
 import ferme.programme.ProgrammeZootechniqueDetailsLib;
 import utilitaire.UtilDB;
+import utilitaire.Utilitaire;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -122,7 +123,7 @@ public class EclosionJourDetailSync {
         String dateMiseEnIncubeStr = Utilitaire.formatterDaty(Date.valueOf(miseEnIncubeDate));
         
         // Récupérer les lots qui ont eu des œufs mis en incubateur à cette date
-        Map<String, Double> oeufsParLot = getOeufsMisIncubateurParLotEtDate(c, dateMiseEnIncubeStr, dateMiseEnIncubeStr);
+        Map<String, Double> oeufsParLot = getOeufsMisIncubateurParLotEtDate(dateMiseEnIncubeStr, dateMiseEnIncubeStr, c);
         
         // Pour chaque lot, obtenir son programme zootechnique et calculer les théorèmes
         for (Map.Entry<String, Double> entry : oeufsParLot.entrySet()) {
